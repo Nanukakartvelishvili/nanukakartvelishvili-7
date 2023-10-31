@@ -76,7 +76,7 @@ justify-content: center;
 align-items: flex-start;
 gap: 32px;
 }
-button{
+.section1_button{
     color: #FFF;
    
 font-size: 20px;
@@ -101,4 +101,100 @@ button:hover{
     color: rgb(72, 32, 5);
     font-size: 21px;
 }
+/* section2 */
 
+ .cards{
+    display: flex;
+gap: 40px;
+   margin-top: 80px;
+   margin-left: 80px;
+    margin-right: 80px; 
+      
+}
+.icon_section2_1,
+.icon_section2_2,
+.icon_section2_3{
+    font-size: 32px;
+    color:#ED6C30;
+}
+
+span{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+.card1_text_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+ 
+}
+.card1,
+.card2,
+.card3{
+    width: 400px;
+height: 320px;
+
+} 
+.card1_text_logo{
+
+
+display: flex;
+width: 400px;
+height: 88px;
+padding: 28px 69px;
+justify-content: center;
+align-items: center;
+background: rgba(55, 45, 35, 0.80);
+backdrop-filter: blur(2px);
+
+}
+article{
+    display: flex;
+    width: calc(1080 / 1440 * 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 90px;
+    margin: auto;
+   
+}
+.article_headline{
+    color: #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.article_p{
+    color: #855C52;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 1060px;
+}
+.section2_button{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+display: flex;
+height: 52px;
+padding: 12px 40px;
+justify-content: center;
+align-items: center;
+background-color: #ED6C30;
+}
